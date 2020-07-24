@@ -1,7 +1,7 @@
 const { create } = require('domain');
 const { createServer } = require('http');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5500;
 
 
 const server = createServer((request, response) =>{
